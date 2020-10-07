@@ -37,5 +37,6 @@ public class TC620 extends TestBase {
         vehicleCostPage.CostDescription.sendKeys("Explicitly tax");
         vehicleCostPage.ChassisAddButton.click();
         BrowserUtils.waitFor(5);
+        //test
     }
 }
